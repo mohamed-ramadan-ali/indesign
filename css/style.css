@@ -1,0 +1,186 @@
+
+@font-face {
+    font-family: 'audreymedium';
+    src: url('audrey-medium-webfont.woff2') format('woff2'),
+         url('audrey-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'proxima_nova_altlight';
+    src: url('mark_simonson_-_proxima_nova_alt_light-webfont.woff2') format('woff2'),
+         url('mark_simonson_-_proxima_nova_alt_light-webfont.woff') format('woff');
+  
+}
+
+
+h1,h2,h4{
+    font-family:audreymedium !important ;
+
+}
+
+a,p,span,ul,h3,h5,h6{
+    font-family:proxima_nova_altlight !important ;
+    font-weight: 600 !important;
+}
+.nav-gradient{
+
+background-color: white;
+    
+}
+
+.navbar{
+    box-shadow: none;
+   position: fixed;
+   top: 0px;
+    width: 100%;
+    z-index: 9999;
+
+}
+
+
+.ws-title span{
+    background-color: rgba(255, 255, 255, .3) !important;
+   padding: 15px !important;
+}
+
+
+.starups-area .starups-img{
+ background-image: url(../img/section_bg04.jpg) !important;
+
+}
+
+
+.latestProject h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .nav-gradient{
+
+     background-color: white;
+    }
+
+
+}
+
+
+.contact-frame{
+    height: 30rem !important;
+   
+}
+
+.contact-title{
+
+    font-size: 4rem !important;
+}
+
+body{
+    overflow-x: hidden !important;
+}
+
+
+
+.nav-logo{
+    width: 14rem !important;
+   
+}
+
+#scrollUp a i, #back-top a i{
+    color: white !important;
+}
+
+
+
+.single-cat img {
+
+    width: 30rem;    
+    height: 15rem;
+}
+
+#scrollUp, #back-top   {background-color: #c7aa66 !important;}
+
+.single-team .team-caption span::before{background: #c7aa66 !important;}
+.section-tittle span::before{background: #c7aa66 !important;}
+
+.footer-area .footer-top .footer-tittle ul li a ,.footer-area .footer-top .footer-tittle h4{
+color: #c7aa66 !important;
+}
+
+
+.footer-area .footer-top .footer-pera p {
+    color: #c7aa66 !important; 
+}
+
+i{
+    color: #c7aa66 !important; 
+}
+
+.testimonial-area .testimonial-caption .testimonial-founder .founder-text span{
+    color: #c7aa66 !important; 
+}
+.team-caption span{
+    color: #c7aa66 !important; 
+}
+
+ .btn-gold{
+    background-color: #c7aa66 !important;
+  
+    text-transform: uppercase;
+    padding: 30px 37px 30px 97px;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 0px;
+    line-height: 1;
+    -moz-user-select: none;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.btn-gold::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    background: #000;
+    left: 37px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1px;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item.active > .nav-link, .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+    background-color: rgba(199, 170, 102, .5) !important;
+    border-radius: 25px;
+
+
+}
+
+
+.footer-area .footer-bottom .footer-copy-right p a{
+    color: #c7aa66 !important;
+}
+
+
+.preloader .preloader-circle{
+    border-top-color:  #c7aa66 !important;
+    
+}
